@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.search-container input {
+    width: 500px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.search-container input:focus {
+    outline: 0;
+}
+
+.search-container button {
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.search-container button:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+.restaurant-list ul {
+    list-style: none;
+}
+
+.restaurant-list li {
+    padding-bottom: 25px;
+    border-top: 1px solid #ddd;
+}
